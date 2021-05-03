@@ -6,8 +6,8 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class Task(
-    @ColumnInfo @PrimaryKey(autoGenerate = true) val id:String?=null,
-    @ColumnInfo val title:String?=null,
-    @ColumnInfo val description:String?=null,
-    @ColumnInfo val isCompeleted:Boolean=false
+    @ColumnInfo @PrimaryKey(autoGenerate = true) var id:Int?=null,
+    @ColumnInfo var title:String?=null,
+    @ColumnInfo var description:String?=null,
+    @ColumnInfo var isCompeleted:Boolean=false
 )
