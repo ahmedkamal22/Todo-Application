@@ -27,7 +27,8 @@ class AddTaskActivity : BaseActivity() {
         val task = Task(title = title,description = description,isCompeleted = completed.isChecked)
         TasksDatabase.getInstance(applicationContext)
             .taskDao().addTask(task)
-        showDialig(title = "Done!!",message = "Congratulation Task Added Successfully",posActionName = "Yes",
+        showDialig(title = "Done!!",message = "Congratulation Task Added Successfully",
+                posActionName = "Yes",
             posAction = DialogInterface.OnClickListener { dialog, which ->
                 dialog.dismiss()
                 finish()
