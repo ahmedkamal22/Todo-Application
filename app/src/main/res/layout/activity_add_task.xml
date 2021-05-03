@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="12dp"
-    tools:context=".AddTaskActivity">
+    tools:context=".activities.AddTaskActivity">
 <com.google.android.material.textfield.TextInputLayout
     android:id="@+id/layout_title"
     android:layout_width="match_parent"

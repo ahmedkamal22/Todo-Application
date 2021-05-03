@@ -1,11 +1,11 @@
-package com.kamal.todoapplication
+package com.kamal.todoapplication.activities
 
 import android.content.DialogInterface
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import com.example.islami.base.BaseActivity
+import com.kamal.todoapplication.R
 import com.kamal.todoapplication.database.dao.TasksDatabase
 import com.kamal.todoapplication.model.Task
 import kotlinx.android.synthetic.main.activity_add_task.*

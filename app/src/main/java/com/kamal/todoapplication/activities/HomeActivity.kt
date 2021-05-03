@@ -1,8 +1,9 @@
-package com.kamal.todoapplication
+package com.kamal.todoapplication.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kamal.todoapplication.R
 import com.kamal.todoapplication.adapter.TasksAdapater
 import com.kamal.todoapplication.database.dao.TasksDatabase
 import kotlinx.android.synthetic.main.activity_home.*
@@ -29,7 +30,7 @@ class HomeActivity : AppCompatActivity() {
 
 
     private fun goToAddTask() {
-        val intent = Intent(this,AddTaskActivity::class.java)
+        val intent = Intent(this, AddTaskActivity::class.java)
         startActivity(intent)
     }
 }

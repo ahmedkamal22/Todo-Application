@@ -1,10 +1,11 @@
-package com.kamal.todoapplication
+package com.kamal.todoapplication.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.kamal.todoapplication.R
 
 class SplachScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +17,7 @@ class SplachScreen : AppCompatActivity() {
     }
 
     private fun GoToHomeActivity() {
-        val intent = Intent(this,HomeActivity::class.java)
+        val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
         finish()
     }
